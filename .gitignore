@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# zip source files (not needed for deployment)
+*.zip
+
+# root-level asset folders (duplicates of public/)
+/KGF 2/
+/PSM ENTRY/
+/ROCKET/
+
+# old static files
+/index.html
+/script.js
+/styles.css
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
